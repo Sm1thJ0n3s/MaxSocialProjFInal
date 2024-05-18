@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3305C4592BE14068004929FC /* MaxSocialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3305C4582BE14068004929FC /* MaxSocialApp.swift */; };
+		3305C45B2BE14068004929FC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3305C45A2BE14068004929FC /* LoginView.swift */; };
+		3305C45D2BE1406A004929FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3305C45C2BE1406A004929FC /* Assets.xcassets */; };
+		3305C4602BE1406A004929FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3305C45F2BE1406A004929FC /* Preview Assets.xcassets */; };
+		3305C46A2BE1406B004929FC /* MaxSocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3305C4692BE1406B004929FC /* MaxSocialTests.swift */; };
+		3305C4742BE1406B004929FC /* MaxSocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3305C4732BE1406B004929FC /* MaxSocialUITests.swift */; };
+		3305C4762BE1406B004929FC /* MaxSocialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3305C4752BE1406B004929FC /* MaxSocialUITestsLaunchTests.swift */; };
+		3305C4832BE1434B004929FC /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3305C4822BE1434B004929FC /* CreateView.swift */; };
+		33B03AE02BF47A9300E55E96 /* HealthPointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B03ADF2BF47A9300E55E96 /* HealthPointsView.swift */; };
+		33CDB1A32BEE792200AA56EF /* ShellsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CDB1A22BEE792200AA56EF /* ShellsView.swift */; };
+		33D69FDA2BE2891A009E896A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D69FD92BE2891A009E896A /* HomeView.swift */; };
+		33D69FDC2BE28E01009E896A /* NewPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D69FDB2BE28E01009E896A /* NewPostView.swift */; };
+		33D69FDE2BE29375009E896A /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D69FDD2BE29375009E896A /* AccountView.swift */; };
+		33D69FE02BE29385009E896A /* AccountSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D69FDF2BE29385009E896A /* AccountSettingsView.swift */; };
+		33D94C4C2BE93482000CB9F7 /* RouletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D94C4B2BE93482000CB9F7 /* RouletteView.swift */; };
+		33E316942BE54995009D9A7A /* TabPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E316932BE54995009D9A7A /* TabPage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3305C4662BE1406B004929FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3305C44D2BE14068004929FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3305C4542BE14068004929FC;
+			remoteInfo = MaxSocial;
+		};
+		3305C4702BE1406B004929FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3305C44D2BE14068004929FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3305C4542BE14068004929FC;
+			remoteInfo = MaxSocial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3305C4552BE14068004929FC /* MaxSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaxSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3305C4582BE14068004929FC /* MaxSocialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSocialApp.swift; sourceTree = "<group>"; };
+		3305C45A2BE14068004929FC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3305C45C2BE1406A004929FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3305C45F2BE1406A004929FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3305C4652BE1406B004929FC /* MaxSocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaxSocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3305C4692BE1406B004929FC /* MaxSocialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSocialTests.swift; sourceTree = "<group>"; };
+		3305C46F2BE1406B004929FC /* MaxSocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaxSocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3305C4732BE1406B004929FC /* MaxSocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSocialUITests.swift; sourceTree = "<group>"; };
+		3305C4752BE1406B004929FC /* MaxSocialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSocialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3305C4822BE1434B004929FC /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		33B03ADF2BF47A9300E55E96 /* HealthPointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthPointsView.swift; sourceTree = "<group>"; };
+		33CDB1A22BEE792200AA56EF /* ShellsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellsView.swift; sourceTree = "<group>"; };
+		33D69FD92BE2891A009E896A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		33D69FDB2BE28E01009E896A /* NewPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostView.swift; sourceTree = "<group>"; };
+		33D69FDD2BE29375009E896A /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		33D69FDF2BE29385009E896A /* AccountSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingsView.swift; sourceTree = "<group>"; };
+		33D94C4B2BE93482000CB9F7 /* RouletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteView.swift; sourceTree = "<group>"; };
+		33E316932BE54995009D9A7A /* TabPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3305C4522BE14068004929FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3305C4622BE1406B004929FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3305C46C2BE1406B004929FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3305C44C2BE14068004929FC = {
+			isa = PBXGroup;
+			children = (
+				3305C4572BE14068004929FC /* MaxSocial */,
+				3305C4682BE1406B004929FC /* MaxSocialTests */,
+				3305C4722BE1406B004929FC /* MaxSocialUITests */,
+				3305C4562BE14068004929FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3305C4562BE14068004929FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3305C4552BE14068004929FC /* MaxSocial.app */,
+				3305C4652BE1406B004929FC /* MaxSocialTests.xctest */,
+				3305C46F2BE1406B004929FC /* MaxSocialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3305C4572BE14068004929FC /* MaxSocial */ = {
+			isa = PBXGroup;
+			children = (
+				3305C4582BE14068004929FC /* MaxSocialApp.swift */,
+				3305C45A2BE14068004929FC /* LoginView.swift */,
+				3305C4822BE1434B004929FC /* CreateView.swift */,
+				33E316932BE54995009D9A7A /* TabPage.swift */,
+				33D69FD92BE2891A009E896A /* HomeView.swift */,
+				33D69FDB2BE28E01009E896A /* NewPostView.swift */,
+				33D69FDD2BE29375009E896A /* AccountView.swift */,
+				33D69FDF2BE29385009E896A /* AccountSettingsView.swift */,
+				33D94C4B2BE93482000CB9F7 /* RouletteView.swift */,
+				33CDB1A22BEE792200AA56EF /* ShellsView.swift */,
+				33B03ADF2BF47A9300E55E96 /* HealthPointsView.swift */,
+				3305C45C2BE1406A004929FC /* Assets.xcassets */,
+				3305C45E2BE1406A004929FC /* Preview Content */,
+			);
+			path = MaxSocial;
+			sourceTree = "<group>";
+		};
+		3305C45E2BE1406A004929FC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3305C45F2BE1406A004929FC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3305C4682BE1406B004929FC /* MaxSocialTests */ = {
+			isa = PBXGroup;
+			children = (
+				3305C4692BE1406B004929FC /* MaxSocialTests.swift */,
+			);
+			path = MaxSocialTests;
+			sourceTree = "<group>";
+		};
+		3305C4722BE1406B004929FC /* MaxSocialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3305C4732BE1406B004929FC /* MaxSocialUITests.swift */,
+				3305C4752BE1406B004929FC /* MaxSocialUITestsLaunchTests.swift */,
+			);
+			path = MaxSocialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3305C4542BE14068004929FC /* MaxSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3305C4792BE1406B004929FC /* Build configuration list for PBXNativeTarget "MaxSocial" */;
+			buildPhases = (
+				3305C4512BE14068004929FC /* Sources */,
+				3305C4522BE14068004929FC /* Frameworks */,
+				3305C4532BE14068004929FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaxSocial;
+			productName = MaxSocial;
+			productReference = 3305C4552BE14068004929FC /* MaxSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3305C4642BE1406B004929FC /* MaxSocialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3305C47C2BE1406B004929FC /* Build configuration list for PBXNativeTarget "MaxSocialTests" */;
+			buildPhases = (
+				3305C4612BE1406B004929FC /* Sources */,
+				3305C4622BE1406B004929FC /* Frameworks */,
+				3305C4632BE1406B004929FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3305C4672BE1406B004929FC /* PBXTargetDependency */,
+			);
+			name = MaxSocialTests;
+			productName = MaxSocialTests;
+			productReference = 3305C4652BE1406B004929FC /* MaxSocialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3305C46E2BE1406B004929FC /* MaxSocialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3305C47F2BE1406B004929FC /* Build configuration list for PBXNativeTarget "MaxSocialUITests" */;
+			buildPhases = (
+				3305C46B2BE1406B004929FC /* Sources */,
+				3305C46C2BE1406B004929FC /* Frameworks */,
+				3305C46D2BE1406B004929FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3305C4712BE1406B004929FC /* PBXTargetDependency */,
+			);
+			name = MaxSocialUITests;
+			productName = MaxSocialUITests;
+			productReference = 3305C46F2BE1406B004929FC /* MaxSocialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3305C44D2BE14068004929FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					3305C4542BE14068004929FC = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					3305C4642BE1406B004929FC = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 3305C4542BE14068004929FC;
+					};
+					3305C46E2BE1406B004929FC = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 3305C4542BE14068004929FC;
+					};
+				};
+			};
+			buildConfigurationList = 3305C4502BE14068004929FC /* Build configuration list for PBXProject "MaxSocial" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3305C44C2BE14068004929FC;
+			productRefGroup = 3305C4562BE14068004929FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3305C4542BE14068004929FC /* MaxSocial */,
+				3305C4642BE1406B004929FC /* MaxSocialTests */,
+				3305C46E2BE1406B004929FC /* MaxSocialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3305C4532BE14068004929FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3305C4602BE1406A004929FC /* Preview Assets.xcassets in Resources */,
+				3305C45D2BE1406A004929FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3305C4632BE1406B004929FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3305C46D2BE1406B004929FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3305C4512BE14068004929FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D69FE02BE29385009E896A /* AccountSettingsView.swift in Sources */,
+				33D69FDE2BE29375009E896A /* AccountView.swift in Sources */,
+				3305C45B2BE14068004929FC /* LoginView.swift in Sources */,
+				33B03AE02BF47A9300E55E96 /* HealthPointsView.swift in Sources */,
+				33D69FDA2BE2891A009E896A /* HomeView.swift in Sources */,
+				33E316942BE54995009D9A7A /* TabPage.swift in Sources */,
+				33CDB1A32BEE792200AA56EF /* ShellsView.swift in Sources */,
+				3305C4832BE1434B004929FC /* CreateView.swift in Sources */,
+				3305C4592BE14068004929FC /* MaxSocialApp.swift in Sources */,
+				33D94C4C2BE93482000CB9F7 /* RouletteView.swift in Sources */,
+				33D69FDC2BE28E01009E896A /* NewPostView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3305C4612BE1406B004929FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3305C46A2BE1406B004929FC /* MaxSocialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3305C46B2BE1406B004929FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3305C4762BE1406B004929FC /* MaxSocialUITestsLaunchTests.swift in Sources */,
+				3305C4742BE1406B004929FC /* MaxSocialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3305C4672BE1406B004929FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3305C4542BE14068004929FC /* MaxSocial */;
+			targetProxy = 3305C4662BE1406B004929FC /* PBXContainerItemProxy */;
+		};
+		3305C4712BE1406B004929FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3305C4542BE14068004929FC /* MaxSocial */;
+			targetProxy = 3305C4702BE1406B004929FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3305C4772BE1406B004929FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3305C4782BE1406B004929FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3305C47A2BE1406B004929FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MaxSocial/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Zman.MaxSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3305C47B2BE1406B004929FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MaxSocial/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Zman.MaxSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3305C47D2BE1406B004929FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Zman.MaxSocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaxSocial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MaxSocial";
+			};
+			name = Debug;
+		};
+		3305C47E2BE1406B004929FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Zman.MaxSocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaxSocial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MaxSocial";
+			};
+			name = Release;
+		};
+		3305C4802BE1406B004929FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Zman.MaxSocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaxSocial;
+			};
+			name = Debug;
+		};
+		3305C4812BE1406B004929FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Zman.MaxSocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaxSocial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3305C4502BE14068004929FC /* Build configuration list for PBXProject "MaxSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3305C4772BE1406B004929FC /* Debug */,
+				3305C4782BE1406B004929FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3305C4792BE1406B004929FC /* Build configuration list for PBXNativeTarget "MaxSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3305C47A2BE1406B004929FC /* Debug */,
+				3305C47B2BE1406B004929FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3305C47C2BE1406B004929FC /* Build configuration list for PBXNativeTarget "MaxSocialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3305C47D2BE1406B004929FC /* Debug */,
+				3305C47E2BE1406B004929FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3305C47F2BE1406B004929FC /* Build configuration list for PBXNativeTarget "MaxSocialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3305C4802BE1406B004929FC /* Debug */,
+				3305C4812BE1406B004929FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3305C44D2BE14068004929FC /* Project object */;
+}
